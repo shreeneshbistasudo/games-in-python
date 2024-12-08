@@ -161,19 +161,7 @@ class Game:
             self.active_player = self.p1
 
 
-'''
-Game Logic
-- Players are assigned roles X
-- Player One makes their move 
-    - If the move is legal, play X
-    - Check if its a winning move X
-    - Update Screen X
-- Player Two makes their move
-    - If the move is legal, play
-    - Check if its a winning move
-    - Update Screen
-- If either player wins or its a draw, start a new game
-'''
+
 
 if __name__ == '__main__':
     game = Game()
